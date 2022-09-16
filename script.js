@@ -48,7 +48,7 @@ function generatePassword(){
   console.log(useSpecial)
 
   if (!useLowerCaseLtrs && !useUpperCaseLtrs && !useNumbers && !useSpecial){
-       if(confirm("Sorry, please select at last one critria")) generatePassword();
+       if(confirm("Sorry please refresh and select at last one critria")) generatePassword();
   } 
 
 
